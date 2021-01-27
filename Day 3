@@ -1,0 +1,50 @@
+## To I looked at creating lists in numpy 
+##The first thing i tasked myself with was creating a 1D array as seen below 
+
+import numpy as np
+
+list = [0,1,2,3,4,5,6,7,8,9]
+
+print(list)
+
+##This  creates a 2D array with all 1's in a 3 by 3 format 
+import numpy as np 
+
+ones= np.ones((3,3),  dtype=int)
+
+print(ones)
+
+## This created a array from 1 to 10 where only the odd numbers are recalle. The odd numbers 
+import numpy as np
+
+Odd=np.array([1,2,3,4,5,6,7,8,9,10])
+oddnumbers=(Odd[Odd%2==1])
+
+print(oddnumbers)
+
+##Similar to the above code. This Code is created to recall all odd number and replace them with -1
+import numpy as np
+
+Odd=np.array([1,2,3,4,5,6,7,8,9,10])
+oddnumbers=(Odd[Odd%2==1])
+
+print(oddnumbers)
+
+print("Subtract :", oddnumbers - 1)
+
+##This is a reshape code in the form of 2 across and 6 down 
+import numpy as np
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+print(array)
+dim = array.reshape(6, 2) 
+
+## This code selects a pre set range between 1-10 and 11-20 i then reshaped both then multiplied and added them together
+import numpy as np
+
+a = np.arange(1,10).reshape (3,3)
+b = np.arange(11,20).reshape (3,3)
+print(a,b)
+ans =np.dot(a,b)
+print(ans)
+anz=np.sum(ans)
+print(anz)

@@ -1,0 +1,25 @@
+class Employee:
+    def __init__(self, first, last, salary):
+        self.first = first
+        self.last = last
+        self.salary = salary
+        #Recalling a employee's email within the class
+        self.email = first + '.' + last + '@company.com'
+    
+    def fullname(self):
+        return('{} {}' .format(self.first, self.last))
+
+emp_1 = Employee('doge', 'coin', 20000)
+emp_2 = Employee('bit','coin',30000)
+
+#print(emp_1)
+#print(emp_2)
+
+
+
+print(emp_1.email)
+print(emp_2.email)
+
+#Calling a employee's first and last name outside the class
+
+print(emp_1.fullname())

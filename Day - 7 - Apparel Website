@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome To Apparel </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="Stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.jpg"alt="Apparel"/>
+
+                </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul id="nav-menu-container">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Trainers</a></li>
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="backdrop">
+                <div class="backdrop-text">
+                    <h1>AP<span>PA</span>REL</h1>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum vel diam vulputate pellentesque.</h5>
+                    <button>Get to know us</button>
+                </div>
+            </section>
+            <section id="Whats-new">
+                <div class="flex">
+                    <h5>Whats new?</h5>
+                    <div id="whats-new-container">
+                        <div class="Whats-new-latest-item">
+                            <span class="badge-new">New</span>
+                            <span class="Whats-new-latest-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="article-boxes">
+                <div class="flex">
+                    <div class="box new">
+                        <div class="shade">
+                        <span class="badge-new">New</span>
+                        <div class="contents">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="comments"> 2 Comments</a>
+                        </div>
+                    </div>
+                    <div class="box-Jordans">
+                        <div class="shade">
+                        <span class="badge-new">New</span>
+                        <div class="contents">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="comments"> 2 Comments</a>
+                        </div>
+                    </div>
+                    <div class="box-Dior">
+                        <div class="shade">
+                        <span class="badge-new">New</span>
+                        <div class="contents">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="comments"> 2 Comments</a>
+                        </div>
+                    </div>
+                    <div class="box-Future">
+                        <div class="shade">
+                        <span class="badge-new">New</span>
+                        <div class="contents">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="comments"> 2 Comments</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

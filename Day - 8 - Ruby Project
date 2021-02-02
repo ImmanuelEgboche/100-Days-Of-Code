@@ -1,0 +1,14 @@
+print "what's your first name?"
+first_name = gets.chomp
+first_name1 = first_name.capitalize!
+print "Whats your last name?"
+last_name = gets.chomp
+last_name1 = last_name.capitalize!
+print "what city are you from?"
+city = gets.chomp
+city1 = city.capitalize!
+print "what country are you from?"
+country = gets.chomp
+country = country.upcase!
+puts "Your name is #{first_name1} #{last_name1}"
+puts "From #{city} in #{country} :)"

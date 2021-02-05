@@ -1,0 +1,18 @@
+def alphabet_position(text)
+  # Delete everything but letters from the string
+  only_letters = text.delete("^a-zA-Z")
+  
+  # Make every letter in the new string lowercase
+  lower_case = only_letters.downcase
+  
+  # Convert each letter to byte position
+  # Byte positions are sequential so subtract 96 from
+  # each value and you get their position in the alphabet
+  byte_value = lower_case.bytes
+  
+  # Make new array using .map with alphabet position correct
+  mapped_text = byte_value.map { |ltr| ltr - 96 }
+  
+  # Return final answer
+  final_answer = mapped_text.join(' ')
+end
